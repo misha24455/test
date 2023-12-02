@@ -9,7 +9,7 @@ class Product {
         this.ProductPrise = prise;
         card.className = "card";
         let card = document.createElement('div');
-        card.innerHTML =
+        card.innerHTML ='card';
         `<img src="${this.imageLink}">
         <h3>${this.productName}</h3>
         <h4>${this.ProductPrise}</h4>
